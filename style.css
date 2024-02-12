@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    height: 400vh;
+    overflow-x: hidden;
+}
+h1{
+  color: white;
+  text-align: center;
+  padding: 100px 0 0 0;
+  font-size: 80px;
+}
+button{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); /* Centers the button */
+font-family: Arial, sans-serif;
+padding: 16px 24px;
+background-color: #008CBA;
+color: White;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+#btn1{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the button */
+  font-family: Arial, sans-serif;
+  padding: 16px 24px;
+  background-color: #008CBA;
+  color: White;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  }
+#startButton:hover {
+   background-color: blue;
+}
+.page-1 {
+  background-image: url("pictirue.jpg");
+  width: 70vw;
+  height: 200vh;
+  position: absolute;
+  top: 100%; /* Adjusted the positioning */
+  left: 15%;
+}
+
+.page-1 p {
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 1.5em; /* Decreased font size */
+  line-height: 1.2; /* Reduced line height */
+  letter-spacing: 0.01em; /* Reduced letter spacing */
+  animation: fadein 2s ease-in forwards;
+  z-index: 1;
+}
+
+.signature p{
+  padding: 50px;
+  font-family: "Times New Roman", Times, serif;
+  color: #8c8b8b;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+}
